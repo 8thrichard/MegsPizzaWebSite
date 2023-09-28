@@ -1,7 +1,13 @@
 
 html {
-    background-image: url('/Assets/Pizza.jpg'); /* Replace 'your-image.jpg' with the path to your background image */ 
+    background-image: url('/Assets/PizzaBKG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
+
+/*Header and Nav Bar Styles*/
+header h2 { font-size: 30px; }
 
 h2 { color: #f47300;}
 
@@ -54,3 +60,13 @@ nav ul li a {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+/*Main Styling Code*/
+
+
+main h2 { font-weight: bold; font-size: 100px; }
+
+
+main p {font-size: 50px;
+color:#fefefe ;}
