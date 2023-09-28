@@ -1,6 +1,6 @@
 
 html {
-    background-image: url('/Assets/PizzaBKG.jpg');
+    background-image: url('/Assets/pizzaBKG.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -9,7 +9,7 @@ html {
 
 /*Header and Nav Bar Styles*/
 header h2 { 
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 0;
     display: inline-block;
     height: fit-content; }
@@ -151,3 +151,22 @@ main h2 { font-weight: bold; font-size: 100px; }
 
 main p {font-size: 50px;
 color:#fefefe ;}
+
+
+
+
+
+.footerbox1 {
+    background-color: #f2994a;
+    height: 100px;
+}
+
+
+footer  {
+    color: white;
+    position: relative;
+    Top: 634px;
+    width: 1136px;
+    min-height: 100px;
+    bottom: 0;
+}
