@@ -46,21 +46,19 @@ main div p {
     padding-left: 100px; 
 }
 
-
 .view-menu {
     font-size: 18px;
     color: #f29b4d;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 25px; /* Equal padding for top/bottom and left/right */
     font-weight: bolder;
     background-color: transparent;
     border: 4px solid #f29b4d;
     border-radius: 10px;
-    transition: 0.5s linear;
     cursor: pointer;
-}
+    transition: 0.5s linear;
+  }
+
+
 
 .view-menu:hover {
     background-color: #f29b4d;
@@ -68,19 +66,17 @@ main div p {
 } 
 
 .view-menu:active {
-  transform: scale(0.95);
+transform: scale(0.95);
 cursor: progress;} 
 
 
 .book-now {
     color: #ffffff;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 18px;
+    padding: 10px 25px;
     font-weight: bolder;
-    background-color: #f29b4d;
-    border: none;
+    background-color:#f29b4d ;
+    border: 4px solid #f29b4d;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s linear;
@@ -91,8 +87,8 @@ cursor: progress;}
 }
 
 .book-now:active {
-    transform: scale(0.95);
-  cursor: progress;}   
+transform: scale(0.95);
+cursor: progress;}   
 
 
 nav { 
