@@ -3,18 +3,27 @@ html {
     background-image: url('/Assets/PizzaBKG.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
+
 /*Header and Nav Bar Styles*/
-header h2 { font-size: 30px; }
+header h2 { 
+    font-size: 30px;
+    margin-top: 0;
+    display: inline-block;
+    height: fit-content; }
 
+/*Company Logo Design*/
 h2 { color: #f47300;}
-
 h2 span { color: #d40101}
 
 
-nav { text-align: right;}
+/*Moving Nav to the Right of the Screen*/
+nav { 
+display: flex; 
+justify-content: flex-end;
+margin-top: -50px;
+}
 
 
 nav ul {
