@@ -3,6 +3,7 @@ html {
     background-image: url('/Assets/PizzaBKG.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -17,8 +18,36 @@ header h2 {
 h2 { color: #f47300;}
 h2 span { color: #d40101}
 
+/* Main Page Styles*/
+main div h2 {
+ display: inline-block;
+ margin: 0;
+}
 
-/*Moving Nav to the Right of the Screen*/
+main div p {
+    margin: 0;
+}
+
+
+.home_greetings  {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    padding-left: 100px; 
+}
+
+
+/*The Home Page Buttons*/
+#hm_buttons {
+    position: absolute;
+    top: 65%; 
+    transform: translateY(-50%); 
+    padding-left: 100px; 
+}
+
+
+
+
 nav { 
 display: flex; 
 justify-content: flex-end;
