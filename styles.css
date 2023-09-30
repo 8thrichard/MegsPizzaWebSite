@@ -1,3 +1,6 @@
+/*The Imports*/
+
+
 html {
     background-image: url('/Assets/pizzaBKG.jpg');
     background-size: cover;
@@ -36,7 +39,7 @@ main div h2 {
 
 main div p {
     margin: 0;
-    margin-bottom: 126px;
+    margin-bottom: 90px;
 }
 
 
@@ -119,10 +122,12 @@ nav ul {
     padding: 0;
 }
 
+
+/*Nav Hover effect*/
 li a:hover {
-    background-color: #555;
+    background-color: #d40101;
     color: white;
-  }
+}
 
 nav ul li {
     display: inline-block;
@@ -130,10 +135,21 @@ nav ul li {
     text-align: left;
 }
 
+
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none; 
+    transition: color 0.3s, background-color 0.3s; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+}
+
+
+nav ul li a.active {
+    background-color: #d40101; /* Background color for the active link */
+    color: white; /* Text color for the active link */
 }
 
 /* Style the dropdown */
@@ -200,9 +216,9 @@ footer button {     background-color: #d40101;
     border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
-    transition: calc(1s); }
+    transition: calc(0.5s); }
 
     
-footer button:hover {
-    background-color: #0000;
-    cursor: pointer; }
+footer button:hover { 
+    cursor: pointer;
+} 
