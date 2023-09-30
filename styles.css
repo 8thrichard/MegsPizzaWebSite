@@ -19,6 +19,7 @@ header h2 {
     margin-top: 0;
     display: inline-block;
     height: fit-content; 
+    color: #f47300;
     padding-left: 25px;}
 
 
@@ -76,15 +77,19 @@ nav ul li a:hover {
 nav ul li a.active {
     color:  #f2994a;
 }
+
 /* Main Page Styles*/
 main div h2 {
  display: inline-block;
  margin: 0;
 }
 
+
 main div p {
     margin: 0;
+    margin-bottom: 126px;
 }
+
 
 /*Main HomePage Message CSS*/
 .home_greetings  {
@@ -95,12 +100,15 @@ main div p {
 }
 
 
+
 /*The Home Page Buttons*/
 #hm_buttons {
     position: absolute;
     top: 65%; 
     transform: translateY(-50%); 
     padding-left: 100px; 
+    display: flex; 
+    gap: 20px;
 }
 
 
@@ -162,6 +170,11 @@ nav ul {
     padding: 0;
 }
 
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
 nav ul li {
     display: inline-block;
     margin-right: 15px;
@@ -204,10 +217,10 @@ nav ul li a {
 /*Main Styling Code*/
 
 
-main h2 { font-weight: bold; font-size: 100px; }
+main h2 { font-weight: bold; font-size: 80px; }
 
 
-main p {font-size: 50px;
+main p {font-size: 40px;
 color:#fefefe ;}
 
 
@@ -224,6 +237,10 @@ footer {
     display: flex; 
     justify-content: center; 
     align-items: center; 
+}
+
+footer p {
+    display: inline-block;
 }
 
 
