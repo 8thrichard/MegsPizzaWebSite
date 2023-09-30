@@ -12,6 +12,7 @@ body {
     padding: 0;
 }
 
+
 /*Header and Nav Bar Styles*/
 header h2 { 
     font-size: 35px;
@@ -25,6 +26,56 @@ header h2 {
 h2 { color: #f47300;}
 h2 span { color: #d40101}
 
+
+/*Hover and Active States */
+
+
+/* Style for the default state of navigation links */
+nav ul li a {
+    color: #333; /* Default text color */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+/* Style for navigation links on hover */
+nav ul li a:hover {
+    color: #f29b4d; /* Change text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for dropdown menu */
+.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute;
+    background-color: #d14040;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown when hovering over the parent */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style for dropdown menu items */
+.dropdown-content li {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* Style for dropdown menu items on hover */
+.dropdown-content li:hover {
+    background-color: #a9764b;
+    color: #fff;
+}
+
+
+nav ul li a.active {
+    color:  #f2994a;
+}
 /* Main Page Styles*/
 main div h2 {
  display: inline-block;
@@ -52,6 +103,7 @@ main div p {
     padding-left: 100px; 
 }
 
+
 .view-menu {
     font-size: 18px;
     color: #f29b4d;
@@ -62,7 +114,7 @@ main div p {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s linear;
-  }
+}
 
 
 
@@ -161,8 +213,7 @@ color:#fefefe ;}
 
 
 
-
-/* Update the footer styling */
+/*Footer Styling*/
 footer {
     background-color: #f2994a;
     color: white;
@@ -170,4 +221,16 @@ footer {
     width: 100%;
     height: 100px;
     bottom: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
+
+
+footer button {     background-color: #d40101;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; }
