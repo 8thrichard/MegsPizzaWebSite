@@ -2,7 +2,7 @@
 
 
 html {
-    background-image:'../images/Pizzabkg.jpg';
+    background-image: url(/images/pizzabkg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
