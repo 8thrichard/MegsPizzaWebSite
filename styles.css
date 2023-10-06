@@ -1,6 +1,6 @@
 /*The Imports*/
 body {
-    background-image: url(pizza.jpg);
+    background-image: url(/images/Pizzabkg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
